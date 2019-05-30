@@ -1,0 +1,29 @@
+/*
+  MIXINS
+*/
+
+@mixin flex-horizontal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+// https://seesparkbox.com/foundry/helpful_sass_mixins
+@mixin box-shadow( $horiz, $vert, $blur, $spread, $color ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
+}
+
+// https://seesparkbox.com/foundry/helpful_sass_mixins
+@mixin border-radius ( $value ) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+  // keeps background from busting out of border 
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}

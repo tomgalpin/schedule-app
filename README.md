@@ -1,3 +1,31 @@
+# Tom's React Scheduler:
+
+## Deploy
+- Live @:  https://tomgalpin.github.io/scheduler/
+  - From:  https://github.com/gitname/react-gh-pages
+
+## Areas of Improvement:
+
+
+## Guidelines
+
+## Structure
+    .
+    ├── /public 
+    │     └── favicon.ico
+    │     └── index.html
+    │     └── manifest.json
+    ├── /src     
+    │     ├── /components
+    │     ├── /styles                    
+    │     │     ├── reset.scss 
+    │     │     ├── variables.scss   
+    │     │     ├── mixins.scss
+    │     ├── app.scss
+    │     └── index.jsx
+    └── README.md
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -12,57 +40,28 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+https://github.com/groveco/grove-scheduler-challenge
+# Grove Scheduler Challenge
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For this challenge, you will create a schedulizer application that uses data from an existing API to display events.
 
-### `npm run build`
+## Deliverables
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Take a look at the data from [this API call](https://scheduler-challenge.grove.co) which retrieves a collection of all the events that should be displayed in your app. Notice that the dates of the events themselves are in [Cron format](http://www.nncron.ru/help/EN/working/cron-format.htm).
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Using whatever JavaScript framework(s) you believe to be appropriate, create a single-page schedulizer application that:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. makes a call to [this endpoint](https://scheduler-challenge.grove.co) to retrieve the event data
+2. display the events in a logical, readable manner. At a minimum, show events happening in the next 24 hours and events that have happened in the previous 3 hours from the current time
+3. uses the [Web Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) to create notifications when an event is starting
 
-### `npm run eject`
+Please provide documentation on how to run the application locally. Be prepared to talk about your decisions for the assignment, any assumptions you made, and tradeoffs you are aware of.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Submission Guidelines
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You may submit your solution in one of two ways:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Create your own GitHub repository and check in all of your source code (do not fork this repo). Then, send us the link to the repo.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Zip the project folder and send us the compressed file.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

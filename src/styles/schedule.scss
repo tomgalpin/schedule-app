@@ -1,0 +1,39 @@
+/*
+  SCHEDULE COMPONENT
+*/
+
+.schedule_container {
+  margin: 20px auto;
+  .schedule_title {
+    margin: 30px 0 20px 0;
+    h3 {
+      font-weight: bold;
+      font-size: 20px;
+      text-align: left;
+    }
+  }
+  .schedule {
+    background-color: $white;
+    @include box-shadow(2px, 4px, 16px, -2px, $gray);
+    @include border-radius(3px);
+    padding: 10px 0;
+  }
+  .schedule_error {
+    margin: 10px 20px 15px 20px;
+  }
+
+  @media only screen and (min-width: $tablet) {
+    .schedule_title {
+      h3 {
+        font-size: 30px;
+        margin-left: 40px;
+      }
+    }
+    .schedule {
+      padding: 15px 0;
+    }
+    .schedule_error {
+      margin: 20px 40px 25px 40px;
+    }
+  }
+}

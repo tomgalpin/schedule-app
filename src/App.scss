@@ -1,0 +1,28 @@
+@import './styles/reset.css';
+@import './styles/variables.scss';
+@import './styles/mixins.scss';
+
+body {
+  background-color: $light-gray;
+  padding: 30px 30px 40px 30px;
+  min-width: 300px;
+  * {
+    font-family: $global-font;
+  }
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+  }
+  button {
+    &:focus {outline:0;}
+  }
+  @media only screen and (min-width: $tablet) {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+
+@import './styles/schedule.scss';
+@import './styles/event.scss';
