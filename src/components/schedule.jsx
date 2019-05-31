@@ -17,7 +17,6 @@ class Schedule extends React.Component {
                 now={this.props.now}
                 nextMoment={moment(event.timeData.timeStrings.next)}
                 next={moment(event.timeData.timeStrings.next).fromNow()}
-
                 prevTime={event.timeData.timeStrings.prevTime}
                 prevDate={event.timeData.timeStrings.prevDate}
                 nextTime={event.timeData.timeStrings.nextTime}

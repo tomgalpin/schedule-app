@@ -40,7 +40,6 @@ class SchedulerContainer extends React.Component {
      */
 
     const scheduleData = response.data.data;
-
     const formattedScheduleData = this.setEventProps(scheduleData);
     const sortedScheduleData = this.sortEventsByDate(formattedScheduleData);
 
@@ -90,11 +89,11 @@ class SchedulerContainer extends React.Component {
 
       eventData.timeData.timeStrings.prev = eventData.timeData.cronObjs.prevObj.toString();
       eventData.timeData.timeStrings.prevTime = moment(eventData.timeData.timeStrings.prev).format('LT');
-      eventData.timeData.timeStrings.prevDate = moment(eventData.timeData.timeStrings.prev).format('l');
+      eventData.timeData.timeStrings.prevDate = moment(eventData.timeData.timeStrings.prev).format('LL');
 
       eventData.timeData.timeStrings.next = eventData.timeData.cronObjs.nextObj.toString();
       eventData.timeData.timeStrings.nextTime = moment(eventData.timeData.timeStrings.next).format('LT');
-      eventData.timeData.timeStrings.nextDate = moment(eventData.timeData.timeStrings.next).format('l');
+      eventData.timeData.timeStrings.nextDate = moment(eventData.timeData.timeStrings.next).format('LL');
 
       formattedArray.push(eventData);
     }
@@ -162,7 +161,7 @@ class SchedulerContainer extends React.Component {
 
     setInterval( () => {
       this.refreshStates();
-    }, 5000);
+    }, 1000);
   }
 
   refreshStates() {
