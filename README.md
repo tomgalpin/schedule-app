@@ -2,7 +2,7 @@
 More React practice using a cron scheduler and Web Notifications API
 
 ## Deploy
-- Live @:  https://tomgalpin.github.io/scheduler/
+- Live @:  https://tomgalpin.github.io/schedule-app/
   - From:  https://github.com/gitname/react-gh-pages
 
 ## Areas of Improvement:
@@ -14,6 +14,12 @@ More React practice using a cron scheduler and Web Notifications API
 ## Guidelines
 1. Display all events, past events in last 3 hours, and upcoming events in next 24 hours.
 2. Use Notifications API to create a notification when event is starting.
+
+## Dependencies Used:
+1.  cron-parser:  https://www.npmjs.com/package/cron-parser
+2.  moment.js:  https://momentjs.com/
+3.  axios:  https://github.com/axios/axios
+4.  sass:  https://sass-lang.com/
 
 ## Structure
     .
