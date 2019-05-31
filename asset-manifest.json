@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/scheduler-app/static/css/main.f725e243.chunk.css",
+    "main.js": "/scheduler-app/static/js/main.8b8e1227.chunk.js",
+    "main.js.map": "/scheduler-app/static/js/main.8b8e1227.chunk.js.map",
+    "runtime~main.js": "/scheduler-app/static/js/runtime~main.746cb092.js",
+    "runtime~main.js.map": "/scheduler-app/static/js/runtime~main.746cb092.js.map",
+    "static/js/2.ff30b69e.chunk.js": "/scheduler-app/static/js/2.ff30b69e.chunk.js",
+    "static/js/2.ff30b69e.chunk.js.map": "/scheduler-app/static/js/2.ff30b69e.chunk.js.map",
+    "index.html": "/scheduler-app/index.html",
+    "precache-manifest.3e31525d711ccb60d848add5b60eb3f2.js": "/scheduler-app/precache-manifest.3e31525d711ccb60d848add5b60eb3f2.js",
+    "service-worker.js": "/scheduler-app/service-worker.js",
+    "static/css/main.f725e243.chunk.css.map": "/scheduler-app/static/css/main.f725e243.chunk.css.map"
+  }
+}
