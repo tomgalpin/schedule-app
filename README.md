@@ -2,7 +2,7 @@
 More React practice using a cron scheduler and Web Notifications API
 
 ## Deploy
-- Live @:  https://tomgalpin.github.io/schedule-app/
+- Live @:  https://tomgalpin.github.io/scheduler-app/
   - From:  https://github.com/gitname/react-gh-pages
 
 ## Areas of Improvement:
